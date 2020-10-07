@@ -1,0 +1,14 @@
+.all{
+  font-family:'Courier New', Courier, monospace;
+  background-color: rgb(58, 34, 2);
+  color:aliceblue;
+  font-size: 85%;
+  text-align: center;
+}
+
+header{
+  border:0ch; /*What does this do?*/
+  margin: 20px;
+  padding:20px;
+  height: 275px;
+}
