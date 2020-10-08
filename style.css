@@ -1,6 +1,6 @@
-.all{
+body, header{
   font-family:'Courier New', Courier, monospace;
-  background-color: rgb(58, 34, 2);
+  background: rgb(58, 34, 2);
   color:aliceblue;
   font-size: 85%;
   text-align: center;
@@ -11,4 +11,23 @@ header{
   margin: 20px;
   padding:20px;
   height: 275px;
+}
+
+a:link {
+  color: greenyellow;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(231, 33, 231);
+}
+
+/* selected link */
+a:active {
+  color: red;
 }
